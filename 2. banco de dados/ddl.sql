@@ -7,3 +7,12 @@ UPDATE tb_filme
  WHERE id_filme = 1;
 
 
+INSERT INTO tb_anime (nm_anime)
+     VALUES ('Jojo');
+
+
+UPDATE tb_filme 
+   SET img_filme     = '/storage/jojo.webp'
+ WHERE id_filme = 2;
+
+
