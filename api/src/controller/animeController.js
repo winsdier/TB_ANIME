@@ -3,6 +3,8 @@ import { alterarImagem, buscarPorId, buscarPorNome, removerAnime, inseriranime }
 import multer from 'multer'
 import { Router } from 'express'
 
+<br></br>
+
 const server = Router();
 const upload = multer({ dest: 'storage/capasFilmes' })
 
